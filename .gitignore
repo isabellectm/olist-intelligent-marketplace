@@ -1,0 +1,29 @@
+.venv/
+venv/
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
+*.pyc
+
+.env
+.env.*
+
+# Dataset original (baixar do Kaggle; ver data/raw/README.md)
+data/raw/*.csv
+
+# Saídas intermediárias
+data/processed/*
+!data/processed/README.md
+
+# Artefatos gerados pelos scripts
+outputs/*
+!outputs/README.md
+!outputs/figuras/
+outputs/figuras/*
+!outputs/figuras/README.md
+
+.idea/
+.vscode/
+*.egg-info/
+dist/
+build/
